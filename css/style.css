@@ -304,8 +304,10 @@ h1, h2, h3, h4, h5,
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 1.5rem; }
- #sidebar h1 .logo {
-      color: #fff; }
+ #sidebar div .logo {
+      color: #fff;
+      text-align: center;
+      padding-bottom: 16px }
   #sidebar ul.components {
     padding: 0; }
   #sidebar ul li {
@@ -353,10 +355,10 @@ h1, h2, h3, h4, h5,
       height: 40px;
       border-radius: 10%; }
       #sidebar .custom-menu .toggle-btn {
-        background: #55BDCA;
+        background: #022449;
         border-color: #91F2E9; }
       #sidebar .custom-menu .toggle-btn:hover, #sidebar .custom-menu .btn:focus {
-          background: #54B5BF !important;
+          background: #022e5e !important;
           border-color: #91F2E9 !important; }
 
 
