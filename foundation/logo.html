@@ -1,106 +1,192 @@
 <!doctype html>
 <html lang="en">
-  <head>
-  	<title>Anh Bien - Design System</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- This is where you put your google font in if applicable -->
-<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+<head>
+  <title>Anh Bien - Design System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- This is where you put your google font in if applicable -->
+  <!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
 
 
-   <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style.css">
-  </head>
-  <body>
-    
-    <div class="d-flex">
-      <nav id="sidebar">
-        <div class="custom-menu">
-          <button type="button" id="sidebarCollapse" class="toggle-btn">
-              <span class="sr-only">Toggle Menu</span>
-                    <div id="nav-icon1" >
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-               </button>
+</head>
+
+<body>
+
+  <div class="d-flex">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="toggle-btn">
+          <span class="sr-only">Toggle Menu</span>
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-		<div class="p-4 pt-6">
-		  <h1><a href="../index.html" class="logo">Your Logo</a></h1>
+        </button>
+      </div>
+      <div class="p-4 pt-6">
+        <div class="logo">
+          <a href="../index.html"><img alt="Anh Bien logo" src="../img/Color.png" width="80%" /></a>
+        </div>
 
-	       <ul class="list-unstyled components">
-	     
-	          <li class="active">
-	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
-	            
-			            <ul class="collapse.show list-unstyled" id="homeSubmenu">
-		                <li>
-		                    <a href="type.html">Typography</a>
-		                </li>
-		                <li>
-		                    <a href="color.html">Color</a>
-		                </li>
-		                <li>
-		                    <a href="#">Logo</a>
-		                </li>
-			            </ul>
-	          </li>
-	          
-	          <li>
-              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
-              <ul class="collapse list-unstyled" id="ComponentsSubmenu">
-                <li>
-                    <a href="../components/component1.html">Comp-1-label</a>
-                </li>
-                <li>
-                    <a href="../components/component2.html">Comp-2-label</a>
-                </li>
-                <li>
-                    <a href="../components/component3.html">Comp-3-label</a>
-                </li>
-              </ul>
-	          </li>
+        <ul class="list-unstyled components">
 
-	          <li>
-              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
-              <ul class="collapse list-unstyled" id="PatternsSubmenu">
-                <li>
-                    <a href="../patterns/pattern1.html">Pattern-1-label</a>
-                </li>
-                <li>
-                    <a href="../patterns/pattern2.html">Pattern-2-label</a>
-                </li>
-               
-              </ul>
-	          </li>
-	         
-	         
-	        </ul> 
+          <li class="active" aria-current="page">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle active">Foundations</a>
 
-	      
+            <ul class="collapse.show list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="type.html">Typography</a>
+              </li>
+              <li>
+                <a href="color.html">Color</a>
+              </li>
+              <li>
+                <a href="#">Logo</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false"
+              class="dropdown-toggle">Components</a>
+            <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+              <li>
+                <a href="../components/component1.html">Comp-1-label</a>
+              </li>
+              <li>
+                <a href="../components/component2.html">Comp-2-label</a>
+              </li>
+              <li>
+                <a href="../components/component3.html">Comp-3-label</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+            <ul class="collapse list-unstyled" id="PatternsSubmenu">
+              <li>
+                <a href="../patterns/pattern1.html">Pattern-1-label</a>
+              </li>
+              <li>
+                <a href="../patterns/pattern2.html">Pattern-2-label</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div class="container">
+      <div class="row p-5 pt-6">
+        <div id="content">
+          <div class="jumbotron bg-dark">
+            <h1 class="text-white">Logos</h1>
+          </div>
+          <h2>Favicon</h2>
+          <img src="../img/favicon.png" alt="favicon" width="48px" height="48px" />
+          <h2 class="pt-4">Variants</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="p-4">
+                  <img src="../img/Color.png" class="card-img mx-auto text-center" alt="Color logo">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Color</h5>
+                  <p class="card-text">This full color logo is the preferred usage for all appearances of the logo
+                    when creating collateral. Full Color can be used on white or dark colored backgrounds.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="p-4">
+                  <img src="../img/Grayscale.png" class="card-img-top" alt="Grayscale logo">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Grayscale</h5>
+                  <p class="card-text">In instances where printing in color is not an option, consider using the
+                    logo in grayscale form.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="p-4 bg-dark">
+                  <img src="../img/ColorReverse.png" class="card-img-top" alt="Color inversed logo"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Color Inversed</h5>
+                  <p class="card-text">The Color Inversed Logo should be used on colored backgrounds or
+                    photographic elements to increase legibility.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
+            <div class="col">
+              <div class="card h-100">
+                <div class="p-4">
+                  <img src="../img/Gradient.png" class="card-img mx-auto text-center" alt="Gradient logo">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Gradient</h5>
+                  <p class="card-text">This Gradient color logo is an option for cross branding to add dynamic
+                    feeling. It can be used on white or dark colored backgrounds.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="p-4">
+                  <img src="../img/Pride.png" class="card-img-top" alt="Pride logo">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Pride</h5>
+                  <p class="card-text">This Pride logo can be used for Pride months. It can be used on white or
+                    dark colored backgrounds.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="p-4">
+                  <img src="../img/Neumorphism.png" class="card-img-top" alt="Neumorphism logo"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Neumorphism</h5>
+                  <p class="card-text">This is an experimental logo for a soft UI</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 class="pt-4">Logo Specifications</h2>
+          <div class="row mt-4">
+            <div class="col-12 col-sm-7">
+              <img src="../img/Specifications.png" alt="Logo Specifications" width="100%" />
+            </div>
+            <div class="col-12 col-sm-5">
+              <p>This logo is designed with the Golden Ratio in mind from the pill dimensions to the text sizes.</p>
+              <p><strong>Font: </strong>Courier</p>
+              <p><strong>Font style: </strong>Bold</p>
+            </div>
+          </div>
 
 
-	      </div>
-    	</nav>
-
-        <!-- Page Content  -->
-      <div class = "container">
-          <div class = "row p-5 pt-6">
-            <div id="content">
-
-              <h2>Logo</h2>
-              <p>See posted student examples.  </p>
-    		             
-    
-        </div>      <!-- Content  -->
+        </div> <!-- Content  -->
       </div><!-- Row  -->
     </div><!-- Container -->
-</div>
+  </div>
 
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/popper.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
-  </body>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
 </html>

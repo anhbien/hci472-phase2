@@ -1,106 +1,164 @@
 <!doctype html>
 <html lang="en">
-  <head>
-  	<title>Anh Bien - Design System</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- This is where you put your google font in if applicable -->
-<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+<head>
+  <title>Anh Bien - Design System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- This is the link to the toggle hamburger -->
+  <!-- This is where you put your google font in if applicable -->
+  <!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+  <!-- This is the link to the toggle hamburger -->
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style.css">
-  </head>
-  <body>
-    
-    <div class="d-flex">
-      <nav id="sidebar">
-        <div class="custom-menu">
-          <button type="button" id="sidebarCollapse" class="toggle-btn">
-              <span class="sr-only">Toggle Menu</span>
-                    <div id="nav-icon1" >
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-               </button>
+</head>
+
+<body>
+
+  <div class="d-flex">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="toggle-btn">
+          <span class="sr-only">Toggle Menu</span>
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-		<div class="p-4 pt-6">
-		  <h1><a href="../index.html" class="logo">Your Logo</a></h1>
+        </button>
+      </div>
+      <div class="p-4 pt-6">
+        <div class="logo">
+          <a href="../index.html"><img alt="Anh Bien logo" src="../img/Color.png" width="80%" /></a>
+        </div>
 
-	       <ul class="list-unstyled components">
-	     
-	          <li class="active">
-	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
-	            
-			            <ul class="collapse.show list-unstyled" id="homeSubmenu">
-		                <li>
-		                    <a href="type.html">Typography</a>
-		                </li>
-		                <li>
-		                    <a href="#">Color</a>
-		                </li>
-		                <li>
-		                    <a href="logo.html">Logo</a>
-		                </li>
-			            </ul>
-	          </li>
-	          
-	          <li>
-              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
-              <ul class="collapse list-unstyled" id="ComponentsSubmenu">
-                <li>
-                    <a href="../components/component1.html">Comp-1-label</a>
-                </li>
-                <li>
-                    <a href="../components/component2.html">Comp-2-label</a>
-                </li>
-                <li>
-                    <a href="../components/component3.html">Comp-3-label</a>
-                </li>
-              </ul>
-	          </li>
+        <ul class="list-unstyled components">
 
-	          <li>
-              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
-              <ul class="collapse list-unstyled" id="PatternsSubmenu">
-                 <li>
-                    <a href="../patterns/pattern1.html">Pattern-1-label</a>
-                </li>
-                <li>
-                    <a href="../patterns/pattern2.html">Pattern-2-label</a>
-                </li>
-               
-              </ul>
-	          </li>
-	         
-	         
-	        </ul> 
+          <li class="active">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
 
-	      
+            <ul class="collapse.show list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="type.html">Typography</a>
+              </li>
+              <li>
+                <a href="#">Color</a>
+              </li>
+              <li>
+                <a href="logo.html">Logo</a>
+              </li>
+            </ul>
+          </li>
 
+          <li>
+            <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false"
+              class="dropdown-toggle">Components</a>
+            <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+              <li>
+                <a href="../components/component1.html">Comp-1-label</a>
+              </li>
+              <li>
+                <a href="../components/component2.html">Comp-2-label</a>
+              </li>
+              <li>
+                <a href="../components/component3.html">Comp-3-label</a>
+              </li>
+            </ul>
+          </li>
 
-	      </div>
-    	</nav>
+          <li>
+            <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+            <ul class="collapse list-unstyled" id="PatternsSubmenu">
+              <li>
+                <a href="../patterns/pattern1.html">Pattern-1-label</a>
+              </li>
+              <li>
+                <a href="../patterns/pattern2.html">Pattern-2-label</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <!-- Page Content  -->
-      <div class = "container">
-          <div class = "row p-5 pt-6">
-            <div id="content">
+    <!-- Page Content  -->
+    <div class="container">
+      <div class="row p-5 pt-6">
+        <div id="content">
+          <div class="jumbotron bg-dark">
+            <h1 class="text-white">Color</h1>
+          </div>
+          <p>This is the color palette</p>
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="card flex-md-row mb-4 box-shadow">
+                <div class="color-light-gray p-5 text-white text-center w-50">
+                  <h5>Light Gray</h5>
+                  <p>#6E6E6E</p>
+                </div>
+                <div class="card-body d-flex flex-column align-items-start">
+                  This is some text
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="card flex-md-row mb-4 box-shadow">
+                <div class="color-dark-gray p-5 text-white text-center w-50">
+                  <h5>Dark Gray</h5>
+                  <p>#393939</p>
+                </div>
+                <div class="card-body d-flex flex-column align-items-start">
+                  This is some text
+                </div>
+              </div>
+            </div>
 
-              <h2>Color</h2>
-              <p>See posted student examples.  </p>
-    		             
-    
-        </div>      <!-- Content  -->
+            <div class="col-12 col-sm-6">
+              <div class="card flex-md-row mb-4 box-shadow">
+                <div class="color-orange p-5 text-white text-center w-50">
+                  <h5>Orange</h5>
+                  <p>#F15A29</p>
+                </div>
+                <div class="card-body d-flex flex-column align-items-start">
+                  This is some text
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6">
+              <div class="card flex-md-row mb-4 box-shadow">
+                <div class="color-dark-orange p-5 text-white text-center w-50">
+                  <h5>Dark Orange</h5>
+                  <p>#C44E00</p>
+                </div>
+                <div class="card-body d-flex flex-column align-items-start">
+                  This is some text
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6">
+              <div class="card flex-md-row mb-4 box-shadow">
+                <div class="color-yellow p-5 text-white text-center w-50">
+                  <h5>Yellow</h5>
+                  <p>#FF9900</p>
+                </div>
+                <div class="card-body d-flex flex-column align-items-start">
+                  This is some text
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- Content  -->
       </div><!-- Row  -->
     </div><!-- Container -->
-</div>
+  </div>
 
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/popper.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
-  </body>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
 </html>
