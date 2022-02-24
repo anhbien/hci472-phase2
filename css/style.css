@@ -324,12 +324,12 @@
 }
 
 #sidebar ul li a:hover {
-  color: #F15A29;
+  color: #BD4D11;
 }
 
 #sidebar ul li.active>a {
   background: transparent;
-  color: #F15A29;
+  color: #BD4D11;
 }
 
 @media (max-width: 850px) {
