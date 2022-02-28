@@ -433,3 +433,10 @@ a[data-toggle="collapse"] {
 .page-link {
   color: #393939;
 }
+
+/* Jumbotron */
+.border-gradient {
+  border-width: thin;
+  border-image: repeating-linear-gradient(90deg, #fdd12d, #ef6125) 30;
+  ;
+}

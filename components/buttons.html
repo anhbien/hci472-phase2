@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Anh Bien - Design System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- This is where you put your google font in if applicable -->
+  <!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+  <!-- This is the link to the toggle hamburger -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/anhbien.css">
+  <link rel="stylesheet" href="../css/prism.css">
+
+</head>
+
+<body>
+
+  <div class="d-flex">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="toggle-btn">
+          <span class="sr-only">Toggle Menu</span>
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+      <div class="p-4 pt-6">
+        <h1><a href="../index.html" class="logo">Your Logo</a></h1>
+
+        <ul class="list-unstyled components">
+          <li class="active">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="../foundation/type.html">Typography</a>
+              </li>
+              <li>
+                <a href="../foundation/color.html">Color</a>
+              </li>
+              <li>
+                <a href="../foundation/logo.html">Logo</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false"
+              class="dropdown-toggle">Components</a>
+            <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+              <li>
+                <a href="#">Comp-1-label</a>
+              </li>
+              <li>
+                <a href="component2.html">Comp-2-label</a>
+              </li>
+              <li>
+                <a href="component3.html">Comp-3-label</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+            <ul class="collapse list-unstyled" id="PatternsSubmenu">
+              <li>
+                <a href="../patterns/pattern1.html">Pattern-1-label</a>
+              </li>
+              <li>
+                <a href="../patterns/pattern2.html">Pattern-2-label</a>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div class="container">
+      <div class="row p-5 pt-6">
+        <div id="content">
+          <div class="jumbotron color-dark">
+            <h1 class="text-white">Buttons</h1>
+            <p class="subtitle text-white">Buttons give users a simple and direct way to take an action.</p>
+          </div>
+
+          <h2>Configurations</h2>
+          <h3>Primary</h3>
+          <p>The primary button styling is reserved for the most important call to action on the page. It should be
+            applied sparingly to maximize effectiveness.</p>
+          <div class="p-5 border">
+            <button href="#" class="btn-primary">Primary Button</button>
+          </div>
+          <!-- Code example-->
+          <h3>Code</h3>
+          <pre class="language-markup">
+            <code>
+              &lt;button href="#" class="btn-primary"&gt;Primary Button&lt;/button&gt;
+            </code>
+          </pre>
+          <!-- Code example -->
+          <h3>Default</h3>
+          <p>The default button styling should be applied to actions of medium importance or when there are multiple,
+            equally important calls-to-action on the page, such as in a table.</p>
+          <div class="p-5 border">
+            <button href="#" class="btn-default">Default Button</button>
+          </div>
+          <!-- Code example-->
+          <h3>Code</h3>
+          <pre class="language-markup">
+            <code>
+              &lt;button href="#" class="btn-default"&gt;Default Button&lt;/button&gt;
+            </code>
+          </pre>
+          <!-- Code example -->
+          <h3>Accessibility</h3>
+          <p>Ensure accessibility by using descriptive button labels for users using assistive technologies.
+            Also, all buttons should only direct to one page and clearly state the page they direct to.</p>
+        </div> <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+  </div>
+  <script src="../js/prism.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
