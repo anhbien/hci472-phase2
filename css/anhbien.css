@@ -5,7 +5,6 @@ body {
     margin: 0;
     font-family: 'Poppins', Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: 300;
     color: #343A40;
 }
 
@@ -16,7 +15,6 @@ p {
 
 a {
     font-size: 1rem;
-    font-weight: 400;
     color: #EF6215;
     text-decoration: none;
     background-color: transparent;
@@ -75,6 +73,13 @@ strong {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+.heading-text {
+    color: #F8F9FA;
+    background-color: #343A40;
+    padding: 4px 20px;
+    display: inline-block;
 }
 
 /* Background Colors */
@@ -190,4 +195,13 @@ strong {
 .card-img-overlay {
     top: auto;
     background-color: #343A4075;
+}
+
+/* Footer */
+footer a {
+    color: #F8F9FA;
+}
+
+footer a:hover {
+    color: #E2E6EA;
 }

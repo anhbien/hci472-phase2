@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Anh Bien - Design System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+    <!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+    <!-- This is the link to the toggle hamburger -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/anhbien.css">
+    <link rel="stylesheet" href="../css/prism.css">
+</head>
+
+<body>
+
+    <div class="d-flex">
+        <nav id="sidebar">
+            <div class="custom-menu">
+                <button type="button" id="sidebarCollapse" class="toggle-btn">
+                    <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+            <div class="p-4 pt-6">
+                <h1><a href="../index.html" class="logo">Your Logo</a></h1>
+
+                <ul class="list-unstyled components">
+
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"
+                            class="dropdown-toggle">Foundations</a>
+
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li>
+                                <a href="../foundation/type.html">Typography</a>
+                            </li>
+                            <li>
+                                <a href="../foundation/color.html">Color</a>
+                            </li>
+                            <li>
+                                <a href="../foundation/logo.html">Logo</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false"
+                            class="dropdown-toggle">Components</a>
+                        <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+                            <li>
+                                <a href="component1.html">Comp-1-label</a>
+                            </li>
+                            <li>
+                                <a href="component2.html">Comp-2-label</a>
+                            </li>
+                            <li>
+                                <a href="#">Comp-3-label</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false"
+                            class="dropdown-toggle">Patterns</a>
+                        <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                            <li>
+                                <a href="../patterns/pattern1.html">Pattern-1-label</a>
+                            </li>
+                            <li>
+                                <a href="../patterns/pattern2.html">Pattern-2-label</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+                </ul>
+
+
+
+
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div class="container">
+            <div class="row p-5 pt-6">
+                <div id="content">
+                    <div class="jumbotron color-dark">
+                        <h1 class="text-white">Paragraphs</h1>
+                    </div>
+                    <h2>Preview</h2>
+                    <p>A paragraph consists of several level of headings, a block of text, and an image with description.</p>
+                    <div class="p-2 border">
+                        <article class="container">
+                            <section class="row py-3">
+                                <div class="col-12"><h2 class="heading-text">Heading 1 Text</h2></div>
+                                <div class="col-12 col-lg-6">
+                                    <h3>Heading 2 Text</h3>
+                                    <p>Culpa qui officia deserunt mollit anim id esto polujimi laborum. Sed ut
+                                        perspiciatis unde omnis iste eropluk onatuspop error sit voluptartem accusantium
+                                        wetrop doloremque laudantium, totam rem aperiam, eaquep ipsa quaeer ab illo
+                                        inventore veritatisy et quasi weth ropeior architecto beatae vitae dicta sunt
+                                        explicapbo. Nemo popul eniem ipsam yui voluptatem quialoperyi voluptas sit
+                                        aspernatur aute odit aut fugit, sed quiawi consequuntur joki erty magni dolores
+                                        eosep quiklopii ratione wertyuil voluptatem sequi nesciunt.</p>
+                                </div>
+                                <div class="col-12 col-lg-6 text-center">
+                                    <img src="../img/Thumbnail.svg" class="img-responsive w-100 rounded" alt="Alt Text">
+                                    <em>Fig.1. Thumbnail description</em>
+                                </div>
+                            </section>
+                            <section class="row py-3">
+                                <div class="col-12"><h2 class="heading-text">Heading 1 Text</h2></div>
+                                <div class="col-12 col-lg-6 order-lg-1">
+                                    <h3>Heading 2 Text</h3>
+                                    <p>Culpa qui officia deserunt mollit anim id esto polujimi laborum. Sed ut
+                                        perspiciatis unde omnis iste eropluk onatuspop error sit voluptartem accusantium
+                                        wetrop doloremque laudantium, totam rem aperiam, eaquep ipsa quaeer ab illo
+                                        inventore veritatisy et quasi weth ropeior architecto beatae vitae dicta sunt
+                                        explicapbo. Nemo popul eniem ipsam yui voluptatem quialoperyi voluptas sit
+                                        aspernatur aute odit aut fugit, sed quiawi consequuntur joki erty magni dolores
+                                        eosep quiklopii ratione wertyuil voluptatem sequi nesciunt.</p>
+                                </div>
+                                <div class="col-12 col-lg-6 text-center order-lg-0">
+                                    <img src="../img/Thumbnail.svg" class="img-responsive w-100 rounded" alt="Alt Text">
+                                    <em>Fig.1. Thumbnail description</em>
+                                </div>
+                            </section>
+                        </article>
+                    </div>
+                    <!-- Code example-->
+                    <h3>Code</h3>
+                    <pre class="language-markup">
+                        <code>
+                            &lt;article class="container"&gt;
+                            &#9;&lt;section class="row py-3"&gt;
+                            &#9;&#9;&lt;div class="col-12"&gt;
+                            &#9;&#9;&#9;&lt;h2 class="heading-text"&gt;Heading Text&lt;/h2&gt;
+                            &#9;&#9;&lt;/div&gt;
+                            &#9;&#9;&lt;div class="col-12 col-lg-6"&gt;
+                            &#9;&#9;&#9;&lt;h3&gt;Heading Text&lt;/h3&gt;
+                            &#9;&#9;&#9;&lt;p&gt;Culpa qui officia deserunt mollit anim id esto polujimi laborum. Sed ut
+                            &#9;&#9;&#9;&#9;perspiciatis unde omnis iste eropluk onatuspop error sit voluptartem accusantium
+                            &#9;&#9;&#9;&#9;eosep quiklopii ratione wertyuil voluptatem sequi nesciunt.&lt;/p&gt;
+                            &#9;&#9;&lt;/div&gt;
+                            &#9;&#9;&lt;div class="col-12 col-lg-6 text-center"&gt;
+                            &#9;&#9;&#9;&lt;img src="../img/Thumbnail.svg" class="img-responsive w-100 rounded" alt="Alt Text"&gt;
+                            &#9;&#9;&#9;&lt;em&gt;Fig.1. Thumbnail description&lt;/em&gt;
+                            &#9;&#9;&lt;/div&gt;
+                            &#9;&lt;/section&gt;
+                            &lt;/article&gt;
+                        </code>
+                    </pre>
+                    <!-- Code example -->
+                    <h3>Accessibility</h3>
+                    <p>Ensure to have an image with each block of text to minimize the number of words on a row.</p>
+                    <p>Ensure to that each image has <code>alt-text</code>.</p>
+                </div> <!-- Content  -->
+            </div><!-- Row  -->
+        </div><!-- Container -->
+    </div>
+    <script src="../js/prism.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
