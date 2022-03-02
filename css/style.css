@@ -391,7 +391,7 @@ a[data-toggle="collapse"] {
 }
 
 .dropdown-toggle::after {
-  display: block;
+  display: none;
   position: absolute;
   top: 50%;
   right: 0;
