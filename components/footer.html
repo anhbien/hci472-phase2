@@ -5,11 +5,7 @@
     <title>Anh Bien - Design System</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- This is where you put your google font in if applicable -->
-    <!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
-
-    <!-- This is the link to the toggle hamburger -->
+    <link rel="shortcut icon" href="../img/favicon.png">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/anhbien.css">
@@ -17,7 +13,6 @@
 </head>
 
 <body>
-
     <div class="d-flex">
         <nav id="sidebar">
             <div class="custom-menu">
@@ -31,14 +26,14 @@
                 </button>
             </div>
             <div class="p-4 pt-6">
-                <h1><a href="../index.html" class="logo">Your Logo</a></h1>
+                <div class="logo">
+                    <a href="../index.html"><img alt="Anh Bien logo" src="../img/Color.png" width="80%" /></a>
+                </div>
 
                 <ul class="list-unstyled components">
-
-                    <li class="active">
+                    <li>
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"
                             class="dropdown-toggle">Foundations</a>
-
                         <ul class="collapse list-unstyled" id="homeSubmenu">
                             <li>
                                 <a href="../foundation/type.html">Typography</a>
@@ -51,43 +46,52 @@
                             </li>
                         </ul>
                     </li>
-
                     <li>
-                        <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false"
+                        <a href="#ComponentsSubmenu" data-toggle="expand" aria-expanded="true"
                             class="dropdown-toggle">Components</a>
-                        <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+                        <ul class="expand list-unstyled" id="ComponentsSubmenu">
                             <li>
-                                <a href="component1.html">Comp-1-label</a>
+                                <a href="../components/buttons.html">Buttons</a>
                             </li>
                             <li>
-                                <a href="component2.html">Comp-2-label</a>
+                                <a href="../components/navbar.html">Navbar</a>
                             </li>
                             <li>
-                                <a href="#">Comp-3-label</a>
+                                <a href="../components/cards.html">Cards</a>
+                            </li>
+                            <li class="active" aria-current="page">
+                                <a href="../components/footer.html">Footer</a>
+                            </li>
+                            <li>
+                                <a href="../components/jumbotron.html">Jumbotron</a>
+                            </li>
+                            <li>
+                                <a href="../components/paragraphs.html">Paragraphs</a>
+                            </li>
+                            <li>
+                                <a href="../components/skillTiles.html">Skill Tiles</a>
+                            </li>
+                            <li>
+                                <a href="../components/timelineGrid.html">Timeline Grids</a>
                             </li>
                         </ul>
                     </li>
-
                     <li>
                         <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false"
                             class="dropdown-toggle">Patterns</a>
                         <ul class="collapse list-unstyled" id="PatternsSubmenu">
                             <li>
-                                <a href="../patterns/pattern1.html">Pattern-1-label</a>
+                                <a href="../patterns/homepage_pattern.html">Home Page</a>
                             </li>
                             <li>
-                                <a href="../patterns/pattern2.html">Pattern-2-label</a>
+                                <a href="../patterns/portfolio-detail-pattern.html">Portfolio Details</a>
                             </li>
-
+                            <li>
+                                <a href="../patterns/resume-pattern.html">Resume</a>
+                            </li>
                         </ul>
                     </li>
-
-
                 </ul>
-
-
-
-
             </div>
         </nav>
 
@@ -99,7 +103,7 @@
                         <h1 class="text-white">Footer</h1>
                     </div>
                     <h2>Preview</h2>
-                    <p>Footer must be included on all pages created using this design system. 
+                    <p>Footer must be included on all pages created using this design system.
                         It includes a navigation menu and allows users to navigate to different pages of the website.
                         It also include social media icons that link to social media pages.
                     </p>

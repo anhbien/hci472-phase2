@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Anh Bien - Design System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="../img/favicon.png">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/anhbien.css">
+  <link rel="stylesheet" href="../css/prism.css">
+</head>
+
+<body>
+  <div class="d-flex">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="toggle-btn">
+          <span class="sr-only">Toggle Menu</span>
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+      <div class="p-4 pt-6">
+        <div class="logo">
+          <a href="../index.html"><img alt="Anh Bien logo" src="../img/Color.png" width="80%" /></a>
+        </div>
+
+        <ul class="list-unstyled components">
+          <li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="../foundation/type.html">Typography</a>
+              </li>
+              <li>
+                <a href="../foundation/color.html">Color</a>
+              </li>
+              <li>
+                <a href="../foundation/logo.html">Logo</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false"
+              class="dropdown-toggle">Components</a>
+            <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+              <li>
+                <a href="../components/buttons.html">Buttons</a>
+              </li>
+              <li>
+                <a href="../components/navbar.html">Navbar</a>
+              </li>
+              <li>
+                <a href="../components/cards.html">Cards</a>
+              </li>
+              <li>
+                <a href="../components/footer.html">Footer</a>
+              </li>
+              <li>
+                <a href="../components/jumbotron.html">Jumbotron</a>
+              </li>
+              <li>
+                <a href="../components/paragraphs.html">Paragraphs</a>
+              </li>
+              <li>
+                <a href="../components/skillTiles.html">Skill Tiles</a>
+              </li>
+              <li>
+                <a href="../components/timelineGrid.html">Timeline Grids</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#PatternsSubmenu" data-toggle="expand" aria-expanded="true" class="dropdown-toggle">Patterns</a>
+            <ul class="expand list-unstyled" id="PatternsSubmenu">
+              <li>
+                <a href="../patterns/homepage_pattern.html">Home Page</a>
+              </li>
+              <li>
+                <a href="../patterns/portfolio-detail-pattern.html">Portfolio Details</a>
+              </li>
+              <li class="active" aria-current="page">
+                <a href="../patterns/resume-pattern.html">Resume</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div class="container pattern">
+      <div class="row p-5 pt-6">
+        <div id="content">
+          <h2>Resume Page - Patterns</h2>
+          <!-- Tabs -->
+          <ul class="nav nav-tabs">
+            <li id="desktop" class="nav-item active" onclick="navClick(this.id)"><a class="nav-link active" data-toggle="tab"
+                href="#Desktop">Desktop</a></li>
+            <li id="desktop-grid" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#DesktopGrid">Desktop Grid</a></li>
+            <li id="tablet" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#Tablet">Tablet</a>
+            </li>
+            <li id="tablet-grid" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#TabletGrid">Tablet Grid</a></li>
+            <li id="mobile" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#Mobile">Mobile</a>
+            </li>
+            <li id="mobile-grid" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#MobileGrid">MobileGrid</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="Desktop" class="tab-pane active">
+              <h3>Desktop</h3>
+              <img src="../img/patterns/Resume - Desktop.png" class="img-responsive w-100" />
+            </div>
+            <div id="DesktopGrid" class="tab-pane">
+              <h3>Desktop Grid</h3>
+              <img src="../img/patterns/Resume Grid - Desktop.png" class="img-responsive w-100" />
+            </div>
+            <div id="Tablet" class="tab-pane">
+              <h3>Tablet</h3>
+              <img src="../img/patterns/Resume - Tablet.png" class="img-responsive w-100" />
+            </div>
+            <div id="TabletGrid" class="tab-pane">
+              <h3>Tablet Grid</h3>
+              <img src="../img/patterns/Resume Grid - Tablet.png" class="img-responsive w-100" />
+            </div>
+            <div id="Mobile" class="tab-pane">
+              <h3>Mobile</h3>
+              <img src="../img/patterns/Resume - Mobile.png" class="img-responsive w-100" />
+            </div>
+            <div id="MobileGrid" class="tab-pane">
+              <h3>Mobile Grid</h3>
+              <img src="../img/patterns/Resume Grid - Mobile.png" class="img-responsive w-100">
+            </div>
+          </div>
+        </div> <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+  </div>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script>
+    function navClick(id) {
+      var element = document.getElementById(id);
+      let siblings = element.parentElement.children;
+      for (let sib of siblings) {
+        sib.classList.remove('active')
+      }
+      element.classList.add('active');
+    }
+  </script>
+</body>
+
+</html>

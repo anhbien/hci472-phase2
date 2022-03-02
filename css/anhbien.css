@@ -192,9 +192,15 @@ strong {
 }
 
 /* Cards */
+.card {
+    min-height: 250px;
+}
+
 .card-img-overlay {
     top: auto;
-    background-color: #343A4075;
+    background-color: #343A4050;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 /* Footer */
@@ -204,4 +210,48 @@ footer a {
 
 footer a:hover {
     color: #E2E6EA;
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #EF6215;
+    top: 0;
+    bottom: 0;
+    left: 1rem;
+    margin-left: -3px;
+}
+
+.timeline section {
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.timeline section::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #F8F9FA;
+    border: 2px solid #EF6215;
+    top: 2.5rem;
+    border-radius: 50%;
+    z-index: 1;
+    left: 6px;
+}
+
+/* Jumbotron */
+.border-gradient {
+    border-width: thin;
+    border-image: repeating-linear-gradient(90deg, #fdd12d, #ef6125) 30;
+    ;
 }
